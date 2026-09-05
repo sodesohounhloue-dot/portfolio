@@ -60,7 +60,8 @@
         }
         
         nav a:hover {
-            color: #9f6500;
+            animation:cubic-bezier(1, 0, 0, 1) 0.5s;
+            color: #cfcc19;
         }
         
         .container {
@@ -123,6 +124,10 @@
             font-size: 0.9rem;
         }
         
+        .skill-tag:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s;
+        }
         .contact-form {
             display: flex;
             flex-direction: column;
@@ -193,8 +198,8 @@
 </head>
 <body>
     <header>
-        <h1>Belrad Sohounhloue</h1>
-        <p>Student</p>
+        <h1>Sodé Belrad Engel Sohounhloue</h1>
+        <p>Student in IT</p>
     </header>
     
     <nav>
@@ -209,7 +214,7 @@
     <main class="container">
         <section id="about">
             <h2>About Me</h2>
-            <p>I am a student with a strong interest in web development and design. I enjoy finding solutions and continuously learning new technologies.</p>
+            <p>I am a student with a strong interest in web development and design. I enjoy finding solutions and continuously learning new technologies. I am currently pursuing a degree in Information Technology.</p>
         </section>
         
         <section id="projects">
@@ -228,6 +233,11 @@
                 <span class="skill-tag">Strategy analysis</span>
                 <span class="skill-tag">Adaptation</span>
                 <span class="skill-tag">Problem-solving</span>
+                <span class="skill-tag">Teamwork</span>
+                <span class="skill-tag">Communication</span>
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">CSS</span>
+                <span class="skill-tag">Python</span>
             </div>
         </section>
         
@@ -238,13 +248,13 @@
                 <input type="text" name="name" placeholder="Your Name" required>
                 <input type="email" name="email" placeholder="Your Email" required>
                 <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-                <button type="submit"> <a href="mailto:sodesohounhloue@gmail.com">Send Message</button>
+                <button type="submit">Send Message</button>
             </form>
         </section>
     </main>
     
     <footer>
-        <p>&copy; 2026 Belrad Sohounhloue. All rights reserved. | <a href="https://github.com/sodesohounhloue-dot" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="https://www.linkedin.com/in/belrad-sohounhloue-70a5603b1/?skipRedirect=true" target="_blank" rel="noopener noreferrer">LinkedIn</a> | <a href="https://m.facebook.com/belrad5" target="_blank" rel="noopener noreferrer">Facebook</a></p>
+        <p>&copy; 2026 Sodé Belrad Engel Sohounhloue. All rights reserved. | <a href="https://github.com/sodesohounhloue-dot" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="https://www.linkedin.com/in/belrad-sohounhloue-70a5603b1/?skipRedirect=true" target="_blank" rel="noopener noreferrer">LinkedIn</a> | <a href="https://m.facebook.com/belrad5" target="_blank" rel="noopener noreferrer">Facebook</a> | <a href="https://tiktok.com/engelinit/" target="_blank" rel="noopener noreferrer">TikTok</a></p>
     </footer>
     
     <script>
