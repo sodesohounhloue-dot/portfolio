@@ -146,3 +146,8 @@ button:hover{
     letter-spacing:2px;
     text-shadow:0 0 15px #00bfff;
 }
+
+a {
+    color:#00bfff;
+    text-decoration:none;
+}
